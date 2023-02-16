@@ -31,16 +31,16 @@
         <div id="information" class="info">            
             <h2>Información</h2>            
             <ul id="personal-info">
-                <input type="text" id="txt-personal" placeholder="Seleccione un item">
-                <button id="button-personal" onclick="editLI()">Editar</button>
+                <input class="personal-info" type="text" id="txt-personal" placeholder="Seleccione un item">
+                <button class="personal-info" id="button-personal" onclick="editLI()">Editar</button>
                 <li>Nombre completo</li>
                 <li>Profesión</li>
                 <li>Ubicación</li>
                 <li>Correo electrónico</li>
                 <li>Teléfono</li>  
                 <li>Idiomas:
-                    <input type="text" id="txtVal">
-                    <button id="button-language" onclick="addLi()">Add</button>
+                    <input class="personal-info" type="text" id="txtVal">
+                    <button class="personal-info" id="button-language" onclick="addLi()">Add</button>
                     <ul id="inline-language">
                         <li>Idioma 1</li>
                         <li>Idioma 2</li>
@@ -49,8 +49,8 @@
                     <script src="javascrip.js"></script>
                 </li>                
                 <li>Habilidades blandas:
-                    <input type="text" id="txtVal2">
-                    <button id="button-soft-skills" onclick="addLi()">Add</button>
+                    <input class="personal-info" type="text" id="txtVal2">
+                    <button class="personal-info" id="button-soft-skills" onclick="addLi()">Add</button>
                     <ul id="inline-soft-skills">
                         <li>Habilidad 1</li>
                         <li>Habilidad 2</li>
@@ -64,6 +64,13 @@
         <div id="work-experience" class="exp">
             <h2>Experiencia</h2>
             <ul>
+                <input class="job" type="text" id="job-name" required minlength="10" maxlength="43" size="43" placeholder="Puesto de trabajo">
+                                
+                <input class="job" type="date" id="start-day">
+                <input class="job" type="date" id="end-day">                
+                
+                <input class= "job" type="text" id="company-name" required minlength="10" maxlength="43" size="43" placeholder="Nombre de la empresa">
+                <button class="job" id="work-description-button" type="button" onclick="addExp()">Agregar</button>
                 <li>Puesto de trabajo
                     <ul>                
                         <li>Fecha de Inicio - Fecha de Finalización</li>                
