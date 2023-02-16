@@ -83,3 +83,9 @@ ul#inline-soft-skills li{
     background-color: cornsilk;
     border-radius: 15px;
 }
+.job{
+    display: none;
+}
+.personal-info{
+    display: none;
+}
