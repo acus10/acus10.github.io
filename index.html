@@ -63,7 +63,7 @@
         </div>
         <div id="work-experience" class="exp">
             <h2>Experiencia</h2>
-            <ul>
+            <ul id="experience-list">
                 <input class="job" type="text" id="job-name" required minlength="10" maxlength="43" size="43" placeholder="Puesto de trabajo">
                                 
                 <input class="job" type="date" id="start-day">
@@ -71,48 +71,19 @@
                 
                 <input class= "job" type="text" id="company-name" required minlength="10" maxlength="43" size="43" placeholder="Nombre de la empresa">
                 <button class="job" id="work-description-button" type="button" onclick="addExp()">Agregar</button>
-                <li>Puesto de trabajo
-                    <ul>                
-                        <li>Fecha de Inicio - Fecha de Finalización</li>                
-                        <li>Empresa</li>
-                    </ul>
-                </li>
-                <li>Puesto de trabajo
-                    <ul>                
-                        <li>Fecha de Inicio - Fecha de Finalización</li>                
-                        <li>Empresa</li>
-                    </ul>
-                </li>
-                <li>Puesto de trabajo
-                    <ul>                
-                        <li>Fecha de Inicio - Fecha de Finalización</li>                
-                        <li>Empresa</li>
-                    </ul>
-                </li>
-            </ul>
-            
+                
+            </ul>            
         </div>
         <div id="degrees" class="degr">
             <h2>Estudios</h2>
-            <ul>
-                <li>Puesto de trabajo
-                    <ul>                
-                        <li>Fecha de Inicio - Fecha de Finalización</li>                
-                        <li>Empresa</li>
-                    </ul>
-                </li>
-                <li>Puesto de trabajo
-                    <ul>                
-                        <li>Fecha de Inicio - Fecha de Finalización</li>                
-                        <li>Empresa</li>
-                    </ul>
-                </li>
-                <li>Puesto de trabajo
-                    <ul>                
-                        <li>Fecha de Inicio - Fecha de Finalización</li>                
-                        <li>Empresa</li>
-                    </ul>
-                </li>
+            <ul id="degree-list">
+                <input class="job" type="text" id="degree-name" required minlength="10" maxlength="43" size="43" placeholder="Nombre del titulo">
+
+                <input class="job" type="date" id="start-day-institution">
+                <input class="job" type="date" id="end-day-institution">         
+
+                <input class= "job" type="text" id="institution-name" required minlength="10" maxlength="43" size="43" placeholder="Nombre de la institución">
+                <button class="job" id="degree-button" type="button" onclick="addDegree()">Agregar</button>
             </ul>      
         </div>    
     </main>      
