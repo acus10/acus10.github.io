@@ -18,41 +18,71 @@ function addLi2(){
 }
 function editCv(){                
   var x = document.getElementById('txtVal');
-  if (x.style.visibility === 'hidden') {
-    x.style.visibility = 'visible';
+  if (x.style.display === 'inline-block') {
+    x.style.display = 'none';
   } else {
-    x.style.visibility = 'hidden';
+    x.style.display = 'inline-block';
   }
   x = document.getElementById('txtVal2');
-  if (x.style.visibility === 'hidden') {
-    x.style.visibility = 'visible';
+  if (x.style.display === 'inline-block') {
+    x.style.display = 'none';
   } else {
-    x.style.visibility = 'hidden';
+    x.style.display = 'inline-block';
   }
   x = document.getElementById('button-soft-skills');
-  if (x.style.visibility === 'hidden') {
-    x.style.visibility = 'visible';
+  if (x.style.display === 'inline-block') {
+    x.style.display = 'none';
   } else {
-    x.style.visibility = 'hidden';
+    x.style.display = 'inline-block';
   }
   x = document.getElementById('button-language');
-  if (x.style.visibility === 'hidden') {
-    x.style.visibility = 'visible';
+  if (x.style.display === 'inline-block') {
+    x.style.display = 'none';
   } else {
-    x.style.visibility = 'hidden';
+    x.style.display = 'inline-block';
   }
   x = document.getElementById('button-personal');
-  if (x.style.visibility === 'hidden') {
-    x.style.visibility = 'visible';
+  if (x.style.display === 'inline-block') {
+    x.style.display = 'none';
   } else {
-    x.style.visibility = 'hidden';
+    x.style.display = 'inline-block';
   }
   x = document.getElementById('txt-personal');
-  if (x.style.visibility === 'hidden') {
-    x.style.visibility = 'visible';
+  if (x.style.display === 'inline-block') {
+    x.style.display = 'none';
   } else {
-    x.style.visibility = 'hidden';
+    x.style.display = 'inline-block';
   }
+  x = document.getElementById('start-day');
+  if (x.style.display === 'inline-block') {
+    x.style.display = 'none';    
+  } else {
+    x.style.display = 'inline-block';
+  }
+  x = document.getElementById('end-day');
+  if (x.style.display === 'inline-block') {
+    x.style.display = 'none';
+  } else {
+    x.style.display = 'inline-block';
+  }
+  x = document.getElementById('job-name');
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+  } else {
+    x.style.display = 'block';
+  }
+  x = document.getElementById('company-name');
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+  } else {
+    x.style.display = 'block';
+  }
+  x = document.getElementById('work-description-button');
+  if (x.style.display === 'inline-block') {
+    x.style.display = 'none';
+  } else {
+    x.style.display = 'inline-block';
+  }  
 }
 var items = document.querySelectorAll("#personal-info li"),
     inputText = document.getElementById("txt-personal"),
