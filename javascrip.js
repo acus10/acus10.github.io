@@ -115,6 +115,30 @@ function editCv(){
   } else {
     x.style.display = 'block';
   }
+  x = document.getElementById('label-exp-start-day');
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+  } else {
+    x.style.display = 'block';
+  }
+  x = document.getElementById('label-exp-end-day');
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+  } else {
+    x.style.display = 'block';
+  }
+  x = document.getElementById('label-degree-start-day');
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+  } else {
+    x.style.display = 'block';
+  }
+  x = document.getElementById('label-degree-end-day');
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+  } else {
+    x.style.display = 'block';
+  }
 }
 var items = document.querySelectorAll("#personal-info li"),
     inputText = document.getElementById("txt-personal"),
