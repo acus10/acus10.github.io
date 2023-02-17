@@ -10,15 +10,19 @@
 </head>
 <body>
     <header>
-        <div id="header-right">
-            <button id="edit-cv" type="button" onclick="editCv()">Editar CV</button>
+        <div class="header-left-photo" id="header-left">
+            <img src="https://www.w3schools.com/w3images/avatar_hat.jpg" alt="curriculum-photo" class="header-photo">
             <script src="javascrip.js"></script>          
         </div>
         <div id="header-middle">
             <h1>Curriculum</h1>
-        </div>  
+        </div>              
+        <div id="header-right">
+            <button id="edit-cv" type="button" onclick="editCv()">Editar CV</button>
+            <script src="javascrip.js"></script>          
+        </div>
     </header>      
-    <nav>
+    <nav id="mySidebar" class="sidebar">
         <ul id="list">
             <li><img src="https://www.w3schools.com/w3images/avatar_hat.jpg" alt="curriculum-photo" class="responsive" ></li>
             <li><a href="#information"><i class="fa-solid fa-user"></i> Información</a></li>
@@ -27,7 +31,7 @@
             <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contacto</a></li>       
         </ul>
     </nav>
-    <main>
+    <main id="main">
         <div id="information" class="info">            
             <h2>Información</h2>            
             <ul id="personal-info">
