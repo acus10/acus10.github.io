@@ -89,3 +89,16 @@ ul#inline-soft-skills li{
 .personal-info{
     display: none;
 }
+.sidebar{    
+    display: block;
+}
+header div{
+    display: inline-block;
+}
+.header-left-photo{        
+    display: none;    
+}
+.header-photo{
+    width: 330px;
+    height: auto;
+}
